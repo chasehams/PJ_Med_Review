@@ -122,6 +122,15 @@
     .footer a:hover {
       text-decoration: underline;
     }
+
+    .disclaimer {
+      margin-top: 1rem;
+      font-size: 0.75rem;
+      line-height: 1.4;
+      color: #D93C21;
+      max-width: 40rem;
+    }
+
   </style>
 </head>
 <body>
@@ -150,9 +159,16 @@
         />
         Your browser does not support the audio element.
       </audio>
+      <!-- Disclaimer -->
+      <p class="disclaimer">
+        <strong>DISCLAIMER:</strong><br>
+        This content is for educational and informational purposes only. Portions of the material may be AI-generated and are not vetted or endorsed by any medical authority. Nothing on this website or in associated media constitutes official medical guidance, clinical direction, or operational policy.<br><br>
+        Users must rely on their organization’s medical director, protocols, approved training materials, and official documentation for all clinical decisions and operational actions. By using this site, you acknowledge that the creators assume no liability for how this information is interpreted or applied in training or real-world settings.
+      </p>
+
 
       <div class="footer">
-        <span>© <span id="year"></span> Protocols Podcast (it's not fuckin' real, this is a one-off)</span>
+        <span>© <span id="year"></span> Protocols Podcast </span>
         <span>Streaming from a single static file.</span>
       </div>
     </main>
